@@ -340,7 +340,9 @@ btnSort.addEventListener("click", function (e) {
 // }
 // getLocalStorage();
 
-function setLocalStorage(accounts) {
+
+
+/*function setLocalStorage(accounts) {
   localStorage.setItem("accounts", JSON.stringify(accounts));
 }
 
@@ -356,3 +358,5 @@ function getLocalStorage() {
 }
 
 console.log(localStorage.getItem("accounts"));
+
+*/
