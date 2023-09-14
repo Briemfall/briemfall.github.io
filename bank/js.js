@@ -233,7 +233,7 @@ btnLogin.addEventListener("click", function (e) {
 
 btnTransfer.addEventListener("click", function (e) {
   e.preventDefault();
-  const receiveAcc = accounts.find(function (account) {
+  const receiveAcc = accounts.find(function (acc) {
     return acc.logIn === inputTransferTo.value;
   });
   const amount = Number(inputTransferAmount.value);
